@@ -14,7 +14,6 @@ export default defineConfig({
   ],
   publicPath: process.env.NODE_ENV === 'production' ? '/evaluation/' : '/',
   base: process.env.NODE_ENV === 'production' ? '/evaluation/' : '/',
-  antd: false,
   initialState: {},
   model: {},
   request: {
